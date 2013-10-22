@@ -1,5 +1,8 @@
 ### Request
 
+#### tipe
+private
+
 #### desripsi
 Meng-generate kode sms dan kode beli untuk keperluan pembelian via SMS.
 

@@ -1,5 +1,8 @@
 ### List
 
+#### tipe
+public
+
 #### deskripsi
 Mendapatkan list of aplikasi mobile apps yang disediakan ngomik.com.
 
