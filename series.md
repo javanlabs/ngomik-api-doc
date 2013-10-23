@@ -21,10 +21,18 @@ API di atas akan mengembalikan list of series **terbaru** sebanyak **5 item** di
 
 #### contoh hasil
     {
-        "status":1,
-        "count":2,
-        "items":"[
-            {\"id\":\"8171\",\"title\":\"komik baru\",\"description\":\"test\"},            
-            {\"id\":\"8170\",\"title\":\"test\",\"description\":\"test\"}
-        ]"
+       "status":1,
+       "count":2,
+       "items":[
+          {
+             "id":11884,
+             "title":"Urmarind Lumina ~mengejar cahaya~",
+             "description":"komik curhat ane, setelah masuk kuliah ane mendapatkan pacar ane direbut org, dan sakit hati yang sangat mendalam mendorong saya untuk membuat komik ini demi merebut nya kembali!"
+          },
+          {
+             "id":11883,
+             "title":"eru ",
+             "description":"kisah seorang pemuda yang melakukan travel time demi mencari benda pusaka desa yang hilang"
+          }
+       ]
     }
