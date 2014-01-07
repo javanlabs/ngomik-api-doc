@@ -44,6 +44,8 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 
 #### User
 * /v1/users/create
+* /v1/users/{id}/subscribe
+* /v1/users/{id}/unsubscribe
 
 #### Sms
 * /v1/sms/generate
