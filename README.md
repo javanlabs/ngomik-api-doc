@@ -24,7 +24,8 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 
 ### Available API
 #### Mixed Content
-* /v1/content/showcase
+* /v1/contents
+* /v1/contents/showcase
 
 #### Series
 * /v1/series
@@ -37,6 +38,12 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 #### Authors
 * /v1/authors
 * /v1/authors/{id}
+
+#### Category
+* /v1/categories
+
+#### User
+* /v1/users/create
 
 #### Statistic
 * /v1/statistic/summary
