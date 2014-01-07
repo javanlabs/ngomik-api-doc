@@ -5,7 +5,7 @@
 Mendaftarkan temporary user atau mendapatkan data user jika email sudah terdaftar 
 
 ##### url
-v1/users/create
+v1/users/create (POST)
 
 ##### parameter
 * **email**: valid email address
