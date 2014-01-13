@@ -133,5 +133,11 @@ v1/chapters/{id}
                 "number": "2",
                 "url": "http://www.ngomik.com/comicPage/display/comic_id/1/page_number/2"
             }
-        ]
+        ],
+        "next_chapter": {
+            // chapter object
+        },
+        "prev_chapter": {
+            // chapter object
+        }        
     }
