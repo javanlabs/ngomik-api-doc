@@ -98,5 +98,8 @@ v1/series/{id}
             "url": "http://localhost/ngomik-api/public/v1/authors/8",
             "avatar": "http://www.ngomik.com/user/thumb/id/8",
             "display_name": "inoex135"
+        },
+        "chapters": {
+            // list of chapters
         }
     }
