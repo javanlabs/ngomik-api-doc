@@ -16,39 +16,39 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 
 ### Available API
 #### Mixed Content
-* `GET` /v1/contents
-* `GET` /v1/contents/showcase
+* `GET` [/v1/contents](v1/content.md#index)
+* `GET` [/v1/contents/showcase](v1/content.md#showcase)
 
 #### Series
-* `GET` /v1/series
-* `GET` /v1/series/{id}
+* `GET` [/v1/series](v1/series.md#index)
+* `GET` [/v1/series/{id}](v1/series.md#detail)
 
 #### Chapters
-* `GET` /v1/chapters
-* `GET` /v1/chapters/{id}
-* `GET` /v1/chapters/{id}/comments
+* `GET` [/v1/chapters](v1/chapter.md#index)
+* `GET` [/v1/chapters/{id}](v1/chapter.md#detail)
+* `GET` [/v1/chapters/{id}/comments](v1/chapter.md#get-comments)
 * `POST` [/v1/chapters/{id}/comments](v1/chapter.md#post-comments)
 
 #### Authors
-* `GET` /v1/authors
-* `GET` /v1/authors/{id}
+* `GET` [/v1/authors](v1/authors.md#index)
+* `GET` [/v1/authors/{id}](v1/author.md#detail)
 
 #### Category
-* `GET` /v1/categories
+* `GET` [/v1/categories](v1/category.md#index)
 
 #### User
-* `POST` /v1/users/create
-* `POST` /v1/users/{id}/subscribe
-* `POST` /v1/users/{id}/unsubscribe
+* `POST` [/v1/users/create](v1/user.md#index)
+* `POST` [/v1/users/{id}/subscribe](v1/user.md#subscribe)
+* `POST` [/v1/users/{id}/unsubscribe](v1/user.md#unsubscribe)
 
 #### Sms
-* `POST` /v1/sms/generate
+* `POST` [/v1/sms/generate](v1/sms.md#generate)
 
 #### Statistic
-* `GET` /v1/statistic/summary
-* `GET` /v1/statistic/registration
-* `GET` /v1/statistic/publication
-* `GET` /v1/statistic/reader
+* `GET` [/v1/statistic/summary](v1/statistic.md#summary)
+* `GET` [/v1/statistic/registration](v1/statistic.md#daily-registration)
+* `GET` [/v1/statistic/publication](v1/statistic.md#daily-publication)
+* `GET` [/v1/statistic/reader](v1/statistic.md#daily-reader)
 
 ## versi 0.x (deprecated)
 
