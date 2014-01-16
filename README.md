@@ -24,34 +24,36 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 
 ### Available API
 #### Mixed Content
-* /v1/contents
-* /v1/contents/showcase
+* `GET` /v1/contents
+* `GET` /v1/contents/showcase
 
 #### Series
-* /v1/series
-* /v1/series/{id}
+* `GET` /v1/series
+* `GET` /v1/series/{id}
 
 #### Chapters
-* /v1/chapters
-* /v1/chapters/{id}
+* `GET` /v1/chapters
+* `GET` /v1/chapters/{id}
+* `GET` /v1/chapters/{id}/comments
+* `POST` /v1/chapters/{id}/comments
 
 #### Authors
-* /v1/authors
-* /v1/authors/{id}
+* `GET` /v1/authors
+* `GET` /v1/authors/{id}
 
 #### Category
-* /v1/categories
+* `GET` /v1/categories
 
 #### User
-* /v1/users/create
-* /v1/users/{id}/subscribe
-* /v1/users/{id}/unsubscribe
+* `POST` /v1/users/create
+* `POST` /v1/users/{id}/subscribe
+* `POST` /v1/users/{id}/unsubscribe
 
 #### Sms
-* /v1/sms/generate
+* `POST` /v1/sms/generate
 
 #### Statistic
-* /v1/statistic/summary
-* /v1/statistic/registration
-* /v1/statistic/publication
-* /v1/statistic/reader
+* `GET` /v1/statistic/summary
+* `GET` /v1/statistic/registration
+* `GET` /v1/statistic/publication
+* `GET` /v1/statistic/reader
