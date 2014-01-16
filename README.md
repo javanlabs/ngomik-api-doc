@@ -27,7 +27,7 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `GET` /v1/chapters
 * `GET` /v1/chapters/{id}
 * `GET` /v1/chapters/{id}/comments
-* `POST` /v1/chapters/{id}/comments
+* `POST` [/v1/chapters/{id}/comments](v1/chapter.md#post-comments)
 
 #### Authors
 * `GET` /v1/authors
