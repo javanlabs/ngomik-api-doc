@@ -141,3 +141,102 @@ v1/chapters/{id}
             // chapter object
         }        
     }
+    
+#### Comments
+Mendapatkan list of komentar dari suatu chapter
+
+##### url
+v1/chapters/{id}/comments
+
+##### parameter
+* **id**: ID chapter
+* **page**: page keberapa (untuk paginasi)
+
+##### contoh hasil
+        
+    {
+        "total": 34,
+        "per_page": 15,
+        "current_page": 3,
+        "last_page": 3,
+        "from": 31,
+        "to": 34,
+        "data": [
+            {
+                "id": "18592",
+                "chapter_id": "1",
+                "user_id": "1286",
+                "content": ":smile::blush::tease:",
+                "created": "2011-03-07 19:47:14",
+                "modified": "2011-03-07 19:47:14",
+                "author": {
+                    "id": "1286",
+                    "username": "zeal",
+                    "created": "2011-01-14 13:37:19",
+                    "modified": "2012-09-15 16:55:39",
+                    "last_activity": "2011-03-07 12:56:54",
+                    "url": "http://api.ngomik.dev/v1/authors/1286",
+                    "permalink": "http://www.ngomik.com/zeal",
+                    "avatar": "http://www.ngomik.com/user/thumb/id/1286",
+                    "display_name": "zeal"
+                }
+            },
+            {
+                "id": "22978",
+                "chapter_id": "1",
+                "user_id": "2354",
+                "content": ":good::good::good:",
+                "created": "2011-03-24 14:56:18",
+                "modified": "2011-03-24 14:56:18",
+                "author": {
+                    "id": "2354",
+                    "username": "pentry",
+                    "created": "2011-03-20 23:02:16",
+                    "modified": "2012-09-23 01:34:40",
+                    "last_activity": "2011-03-25 13:23:07",
+                    "url": "http://api.ngomik.dev/v1/authors/2354",
+                    "permalink": "http://www.ngomik.com/pentry",
+                    "avatar": "http://www.ngomik.com/user/thumb/id/2354",
+                    "display_name": "pentry"
+                }
+            },
+            {
+                "id": "39873",
+                "chapter_id": "1",
+                "user_id": "3487",
+                "content": ":biggrin::biggrin::good::good: sepp gan",
+                "created": "2011-05-27 16:12:52",
+                "modified": "2011-05-27 16:12:52",
+                "author": {
+                    "id": "3487",
+                    "username": "Rae_des'vegasz",
+                    "created": "2011-05-04 14:58:17",
+                    "modified": "2012-05-29 01:19:40",
+                    "last_activity": "2012-05-29 01:19:40",
+                    "url": "http://api.ngomik.dev/v1/authors/3487",
+                    "permalink": "http://www.ngomik.com/Rae_des'vegasz",
+                    "avatar": "http://www.ngomik.com/user/thumb/id/3487",
+                    "display_name": "Rae_des'vegasz"
+                }
+            },
+            {
+                "id": "66383",
+                "chapter_id": "1",
+                "user_id": "7521",
+                "content": "bagusss :signwow:",
+                "created": "2011-07-28 17:48:44",
+                "modified": "2011-07-28 17:48:44",
+                "author": {
+                    "id": "7521",
+                    "username": "lailas1",
+                    "created": "2011-07-25 16:25:39",
+                    "modified": "2012-09-16 22:52:43",
+                    "last_activity": "2011-10-16 18:08:17",
+                    "url": "http://api.ngomik.dev/v1/authors/7521",
+                    "permalink": "http://www.ngomik.com/lailas1",
+                    "avatar": "http://www.ngomik.com/user/thumb/id/7521",
+                    "display_name": "lailas1"
+                }
+            }
+        ]
+    }
