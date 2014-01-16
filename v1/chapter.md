@@ -142,11 +142,11 @@ v1/chapters/{id}
         }        
     }
     
-#### Comments
+#### Get Comments
 Mendapatkan list of komentar dari suatu chapter
 
 ##### url
-v1/chapters/{id}/comments
+v1/chapters/{id}/comments (GET)
 
 ##### parameter
 * **id**: ID chapter
@@ -239,4 +239,28 @@ v1/chapters/{id}/comments
                 }
             }
         ]
+    }
+    
+#### Post Comments
+Mendapatkan list of komentar dari suatu chapter
+
+##### url
+v1/chapters/{id}/comments (POST)
+
+##### parameter
+* **id**: ID chapter
+* **user_id**: user ID
+* **content**: comment message
+* **parent_id**: parent comment ID (if this comment is a reply from previous comment)
+
+##### contoh hasil
+
+    {
+        "user_id": "2",
+        "chapter_id": "1",
+        "content": "test comment from API",
+        "status": "publish",
+        "modified": "2014-01-16 14:10:28",
+        "created": "2014-01-16 14:10:28",
+        "id": 292534
     }
