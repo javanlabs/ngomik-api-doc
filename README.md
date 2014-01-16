@@ -7,14 +7,6 @@ This is documentation for [ngomik.com](http://ngomik.com) API. [Ngomik.com](http
 
 # Cara Penggunaan
 
-## versi 0.x (deprecated)
-
-### Authentication
-Untuk semua API yang tersedia, bisa diakses di [http://api.ngomik.com](http://api.nogmik.com). API terbagi menjadi 2 jenis, yaitu public dan private. API public bisa diakses oleh siapa saja. API private membutuhkan `app_id` dan `app_secret` untuk mengaksesnya. `app_id` dan `app_secret` ditambahkan sebagai parameter **GET** di url.
-
-Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com. 
-
-
 ## versi 1.0 (recommended)
 
 ### Authentication
@@ -57,3 +49,11 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `GET` /v1/statistic/registration
 * `GET` /v1/statistic/publication
 * `GET` /v1/statistic/reader
+
+## versi 0.x (deprecated)
+
+### Authentication
+Untuk semua API yang tersedia, bisa diakses di [http://api.ngomik.com](http://api.nogmik.com). API terbagi menjadi 2 jenis, yaitu public dan private. API public bisa diakses oleh siapa saja. API private membutuhkan `app_id` dan `app_secret` untuk mengaksesnya. `app_id` dan `app_secret` ditambahkan sebagai parameter **GET** di url.
+
+Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com. 
+
