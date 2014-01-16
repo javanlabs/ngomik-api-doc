@@ -12,6 +12,7 @@ v1/series
 * **limit**: berapa banyak item yang ingin diambil
 * **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
 * **keyword**: untuk mendapatkan series yang judulnya mengandung **keyword**
+* **google_token**: identifier user jika mengakses dari android device
 
 ##### contoh hasil
     
@@ -33,6 +34,7 @@ v1/series
                 "url": "http://localhost/ngomik-api/public/v1/series/1",
                 "thumbnail": "http://www.ngomik.com/comic/thumb/id/1/width/200/height/300",
                 "chapter_count": "3",
+                "subscribed": 1,
                 "author": {
                     "id": "8",
                     "username": "inoex135",
@@ -54,6 +56,7 @@ v1/series
                 "url": "http://localhost/ngomik-api/public/v1/series/3",
                 "thumbnail": "http://www.ngomik.com/comic/thumb/id/3/width/200/height/300",
                 "chapter_count": "2",
+                "subscribed": 0,                
                 "author": {
                     "id": "5",
                     "username": "ardhan",
