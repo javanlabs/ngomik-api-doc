@@ -35,6 +35,7 @@ v1/users/{id}/subscribe (POST)
 
 ##### contoh hasil
 
+````json
     {
         "status": 1,
         "item": {
@@ -61,6 +62,7 @@ v1/users/{id}/subscribe (POST)
             }
         }
     }
+````
     
 #### Subscribe
 User berhenti berlangganan suatu konten
@@ -73,6 +75,7 @@ v1/users/{id}/unsubscribe (POST)
 
 ##### contoh hasil
 
+````json
     {
         "status": 1,
         "item": {
@@ -99,3 +102,4 @@ v1/users/{id}/unsubscribe (POST)
             }
         }
     }
+````
