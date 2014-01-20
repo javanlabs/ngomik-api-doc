@@ -242,7 +242,7 @@ v1/chapters/{id}/comments (GET)
     }
     
 #### Post Comments
-Mendapatkan list of komentar dari suatu chapter
+Memposting sebuah komentar untuk chapter tertentu
 
 ##### url
 v1/chapters/{id}/comments (POST)
