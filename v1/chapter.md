@@ -256,11 +256,22 @@ v1/chapters/{id}/comments (POST)
 ##### contoh hasil
 
     {
-        "user_id": "2",
+        "id": "292546",
         "chapter_id": "1",
-        "content": "test comment from API",
+        "user_id": "2",
+        "content": "test",
+        "created": "2014-01-21 15:22:14",
+        "modified": "2014-01-21 15:22:14",
         "status": "publish",
-        "modified": "2014-01-16 14:10:28",
-        "created": "2014-01-16 14:10:28",
-        "id": 292534
+        "author": {
+            "id": "2",
+            "username": "uyab",
+            "created": "2010-08-23 14:14:44",
+            "modified": "2013-12-12 16:42:08",
+            "last_activity": "2014-01-07 11:30:46",
+            "url": "http://api.ngomik.dev/v1/authors/2",
+            "permalink": "http://www.ngomik.com/uyab",
+            "avatar": "http://www.ngomik.com/user/thumb/id/2",
+            "display_name": "Bayu Hendra Winata"
+        }
     }
