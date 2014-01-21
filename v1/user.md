@@ -112,6 +112,7 @@ User memberikan jempol (like) ke suatu chapter
 
 ##### url
 v1/users/thumbsup (POST)
+
 v1/users/{id}/thumbsup (POST)
 
 ##### parameter
