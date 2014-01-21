@@ -249,7 +249,7 @@ v1/chapters/{id}/comments (POST)
 
 ##### parameter
 * **id**: ID chapter
-* **user_id**: user ID
+* **user_id**: user ID (optional, jika tidak ada maka akan diisi ID dari auth user)
 * **content**: comment message
 * **parent_id**: parent comment ID (if this comment is a reply from previous comment)
 
