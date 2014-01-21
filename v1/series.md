@@ -8,6 +8,7 @@ Mendapatkan list of series
 v1/series
 
 ##### parameter
+* **type**: 'all', 'series', 'oneshot', 'strip' (default 'all')
 * **order**: newest, oldest
 * **limit**: berapa banyak item yang ingin diambil
 * **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
