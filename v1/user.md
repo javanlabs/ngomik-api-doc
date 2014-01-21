@@ -9,18 +9,23 @@ v1/users/create (POST)
 
 ##### parameter
 * **email**: valid email address
+* **name**: User full name (optional)
 
 ##### contoh hasil
 
     {
         "status": 1,
         "user": {
-            "id": "53340",
-            "username": "bayuhendra@javan.com",
-            "email": "bayuhendra@javan.com",
+            "id": "53342",
+            "username": "bayuhendra@email.com",
+            "email": "bayuhendra@email.com",
             "status": "3",
-            "created": "2014-01-07 10:16:44",
-            "modified": "2014-01-07 10:16:44"
+            "created": "2014-01-21 13:38:06",
+            "modified": "2014-01-21 13:38:06",
+            "url": "http://api.ngomik.dev/v1/authors/53342",
+            "permalink": "http://www.ngomik.com/bayuhendra@email.com",
+            "avatar": "http://www.ngomik.com/user/thumb/id/53342",
+            "display_name": "bayu hendra winata cak"
         }
     }
     
@@ -75,7 +80,6 @@ v1/users/{id}/unsubscribe (POST)
 
 ##### contoh hasil
 
-````json
     {
         "status": 1,
         "item": {
@@ -102,4 +106,3 @@ v1/users/{id}/unsubscribe (POST)
             }
         }
     }
-````
