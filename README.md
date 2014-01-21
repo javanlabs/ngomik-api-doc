@@ -15,6 +15,7 @@ Mulai versi 1.0, semua API bersifat **private**. Metode yang digunakan adalah Ba
 Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com. 
 
 ### Available API
+
 #### Mixed Content
 * `GET` [/v1/contents](v1/content.md#index)
 * `GET` [/v1/contents/showcase](v1/content.md#showcase)
@@ -40,6 +41,13 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `POST` [/v1/users/create](v1/user.md#index)
 * `POST` [/v1/users/{id}/subscribe](v1/user.md#subscribe)
 * `POST` [/v1/users/{id}/unsubscribe](v1/user.md#unsubscribe)
+
+#### User Collection
+* `GET` /v1/users/collections
+* `GET` [/v1/users/collections/subscribed](v1/collection.md#subscribed)
+* `GET` /v1/users/collections/subscribed/{item_id}
+* `GET` [/v1/users/collections/purchased](v1/collection.md#purchased)
+* `GET` [/v1/users/collections/purchased/{item_id}](v1/collection.md#purchased)
 
 #### Sms
 * `POST` [/v1/sms/generate](v1/sms.md#generate)
