@@ -151,6 +151,7 @@ v1/chapters/{id}/comments (GET)
 ##### parameter
 * **id**: ID chapter
 * **page**: page keberapa (untuk paginasi)
+* **limit**: berapa banyak komentar yang ingin ditampilkan
 
 ##### contoh hasil
         
