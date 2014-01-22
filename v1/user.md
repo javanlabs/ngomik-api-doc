@@ -28,6 +28,37 @@ v1/users/create (POST)
             "display_name": "bayu hendra winata cak"
         }
     }
+
+#### Update
+Mengupdate data user
+
+##### url
+v1/users/update (POST)
+
+v1/users/{id}/update (POST)
+
+##### parameter
+* **name**: user full name
+* **avatar**: user avatar file
+
+##### contoh hasil
+
+    {
+        "status": 1,
+        "user": {
+            "id": "53342",
+            "username": "bayuhendra@email.com",
+            "email": "bayuhendra@email.com",
+            "status": "3",
+            "created": "2014-01-21 13:38:06",
+            "modified": "2014-01-21 13:38:06",
+            "url": "http://api.ngomik.dev/v1/authors/53342",
+            "permalink": "http://www.ngomik.com/bayuhendra@email.com",
+            "avatar": "http://www.ngomik.com/user/thumb/id/53342",
+            "display_name": "bayu hendra winata cak"
+        }
+    }
+
     
 #### Subscribe
 User berlangganan suatu konten
