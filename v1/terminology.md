@@ -8,6 +8,9 @@ Orang yang mempublikasikan komik.
 ### reader
 Orang yang membaca komik.
 
+### active user
+User yang sedang dalam kondisi login di ngomik.com, bisa melakukan beberapa aksi seperti: memberi thumbs up, memberi komentar, subscribe, dll.
+
 ## Content
 
 ### comic

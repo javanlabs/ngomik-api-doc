@@ -33,14 +33,21 @@ v1/users/create (POST)
 User berlangganan suatu konten
 
 ##### url
+v1/users/subscribe (POST)
+
 v1/users/{id}/subscribe (POST)
 
 ##### parameter
 * **item_id**: ID item
 
+##### HTTP response code
+* `200` OK
+* `402` user already subscribe
+* `403` active user not found
+* `404` series to subscribe not found
+
 ##### contoh hasil
 
-````json
     {
         "status": 1,
         "item": {
@@ -67,16 +74,23 @@ v1/users/{id}/subscribe (POST)
             }
         }
     }
-````
     
 #### Subscribe
 User berhenti berlangganan suatu konten
 
 ##### url
+v1/users/unsubscribe (POST)
+
 v1/users/{id}/unsubscribe (POST)
 
 ##### parameter
 * **item_id**: ID item
+
+##### HTTP response code
+* `200` OK
+* `402` user belum berlangganan sebelumnya
+* `403` active user not found
+* `404` series to unsubscribe not found
 
 ##### contoh hasil
 
@@ -117,6 +131,12 @@ v1/users/{id}/thumbsup (POST)
 
 ##### parameter
 * **item_id**: ID item
+
+##### HTTP response code
+* `200` OK
+* `402` user sudah pernah memberi thumbs up
+* `403` active user not found
+* `404` series to unsubscribe not found
 
 ##### contoh hasil
 
