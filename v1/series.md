@@ -45,6 +45,9 @@ v1/series
                     "url": "http://localhost/ngomik-api/public/v1/authors/8",
                     "avatar": "http://www.ngomik.com/user/thumb/id/8",
                     "display_name": "inoex135"
+                },
+                "first_chapter":{
+                    //chapter object, only if type = oneshot
                 }
             },
             {
