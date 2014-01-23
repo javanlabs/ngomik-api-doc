@@ -25,7 +25,8 @@ v1/users/create (POST)
             "url": "http://api.ngomik.dev/v1/authors/53342",
             "permalink": "http://www.ngomik.com/bayuhendra@email.com",
             "avatar": "http://www.ngomik.com/user/thumb/id/53342",
-            "display_name": "bayu hendra winata cak"
+            "display_name": "bayu hendra winata cak",
+            "mode": "existing"            
         }
     }
 
