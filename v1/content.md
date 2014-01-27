@@ -178,6 +178,10 @@ v1/contents/showcase
 ##### contoh hasil
     {
         "status": 1,
+        "subscription_update": [//list of chapter object],
+        "all_update": [//list of chapter object],        
+        "top_series": [//list of series object],        
+        "recommendation": [//list of series object],                
         "chapters": {
             "total": 12632,
             "per_page": 2,
