@@ -8,7 +8,7 @@ Mendapatkan list of chapter
 v1/chapters
 
 ##### parameter
-* **order**: newest, oldest
+* **order**: newest, oldest, last-read (only if authUser exist)
 * **limit**: berapa banyak item yang ingin diambil
 * **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
 * **keyword**: untuk mendapatkan chapter yang judulnya mengandung **keyword**
