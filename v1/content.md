@@ -182,6 +182,7 @@ v1/contents/showcase
         "all_update": [//list of chapter object],        
         "top_series": [//list of series object],        
         "recommendation": [//list of series object],                
+        "latest_read": [//list of chapter object],        
         "chapters": {
             "total": 12632,
             "per_page": 2,
