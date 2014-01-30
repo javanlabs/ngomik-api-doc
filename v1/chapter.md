@@ -12,6 +12,10 @@ v1/chapters
 * **limit**: berapa banyak item yang ingin diambil
 * **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
 * **keyword**: untuk mendapatkan chapter yang judulnya mengandung **keyword**
+* **thumbnail_width**
+* **thumbnail_height**
+* **cover_width**
+* **cover_height**
 
 ##### contoh hasil
         
@@ -77,6 +81,8 @@ v1/chapters/{id}
 
 ##### parameter
 * **id**: ID chapter
+* **page_width**
+* **page_height**
 
 ##### contoh hasil
         

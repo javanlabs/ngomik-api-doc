@@ -23,6 +23,7 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 #### Series
 * `GET` [/v1/series](v1/series.md#index)
 * `GET` [/v1/series/{id}](v1/series.md#detail)
+* `GET` [/v1/series/{id}/comments](v1/series.md#get-comments)
 
 #### Chapters
 * `GET` [/v1/chapters](v1/chapter.md#index)
@@ -46,6 +47,7 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `GET` /v1/users/collections
 * `GET` [/v1/users/collections/subscribed](v1/collection.md#subscribed)
 * `GET` /v1/users/collections/subscribed/{item_id}
+* `GET` /v1/users/collections/subscribed/chapters
 * `GET` [/v1/users/collections/purchased](v1/collection.md#purchased)
 * `GET` [/v1/users/collections/purchased/{item_id}](v1/collection.md#purchased)
 
