@@ -14,6 +14,116 @@ Mulai versi 1.0, semua API bersifat **private**. Metode yang digunakan adalah Ba
 
 Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com. 
 
+### Object Property
+
+#### User
+
+    {
+        id: "53350",
+        username: "uyab",
+        email: "bayu.hendra@ngomik.com"
+        cash: "1000",
+        status: "1",
+        created: "2014-02-05 10:49:37",
+        modified: "2014-02-05 10:49:37",
+        last_activity: "2012-09-12 13:32:51",
+        url: "http://api.ngomik.dev/v1/authors/53350",
+        permalink: "http://www.ngomik.com/uyab",
+        avatar: "http://api.ngomik.dev/img/avatar/53350/100/100/53350.jpg",
+        display_name: "Bayu Hendra Winata"
+    }
+
+
+
+#### Author
+
+    {
+        id: "53350",
+        username: "uyab",
+        email: "bayu.hendra@ngomik.com"
+        cash: "1000",
+        created: "2014-02-05 10:49:37",
+        modified: "2014-02-05 10:49:37",
+        last_activity: "2012-09-12 13:32:51",
+        url: "http://api.ngomik.dev/v1/authors/53350",
+        permalink: "http://www.ngomik.com/uyab",
+        avatar: "http://api.ngomik.dev/img/avatar/53350/100/100/53350.jpg",
+        display_name: "Bayu Hendra Winata"
+    }
+
+#### Series
+    
+     {
+                "id": "8035",
+                "slug": "bueuk-ngomik",
+                "title": "BUEUK NGOMIK",
+                "description": "Sebagai seorang ilustrator di salah satu komunitas dan studio, banyak sekali aktivitas yang tidak/terduga. dan inilah hasil ngupil seharian di meja kerja.",
+                "created": "2012-09-03 12:02:26",
+                "modified": "2014-01-28 14:53:42",
+                "status": "publish",
+                "type": "series",
+                "quality": "curated",
+                "readability": "large",
+                "cover_color": null,
+                "subscriber_count": "0",
+                "url": "http://api.ngomik.dev/v1/series/8035",
+                "permalink": "http://www.ngomik.com/comic/bueuk-ngomik/8035",
+                "cover": "http://www.ngomik.com/comic/thumb/id/8035/width/640/height/480",
+                "thumbnail": "http://www.ngomik.com/comic/thumb/id/8035/width/200/height/300",
+                "chapter_count": "8",
+                "subscribed": 0,
+                "author": <author object>
+            }
+
+#### Chapter
+    
+    {
+        "id": "13315",
+        "title": "KISAH MALAM MINGGU",
+        "slug": "kisah-malam-minggu",
+        "created": "2012-09-16 12:48:50",
+        "modified": "2012-09-17 07:38:43",
+        "published": "2012-09-16 12:54:07",
+        "number": "57",
+        "status": "publish",
+        "url": "http://api.ngomik.dev/v1/chapters/13315",
+        "permalink": "http://www.ngomik.com/chapter/13315/kisah-malam-minggu",
+        "thumbnail": "http://api.ngomik.dev/img/page/200x300/Y29taWNzLzIwMTIvMDUvMjUvNDA2NTEvNzA2MS8xMzMxNS9wNTA1NWNhYzgyNmNmZjkwODcuanBn/1/gif1.jpg",
+        "cover": "http://api.ngomik.dev/img/page/400x600/Y29taWNzLzIwMTIvMDUvMjUvNDA2NTEvNzA2MS8xMzMxNS9wNTA1NWNhYzgyNmNmZjkwODcuanBn/0/gif1.jpg",
+        "view_count": "45",
+        "comment_count": "3",
+        "thumb_count": "6",
+        "page_count": "12",
+        "synopsis": "Kritik & saran tinggal KOMENT jangan lupa JEMPOLnya yg banyak...!!! {thumb}{thumb}{thumb}{thumb}{thumb}",
+        "purchased": 0,
+        "price": "0",
+        "author": <author object>,
+        "series": <series object>,
+        "pages": [<array of chpater page object>],
+        "prev_chapter": <chapter object>,
+        "next_chapter": <chapter object>
+    }
+    
+#### Chapter Page
+    {
+        "id": "119500",
+        "number": "10",
+        "url": "http://api.ngomik.dev/img/page/400x600/Y29taWNzLzIwMTIvMDUvMjUvNDA2NTEvNzA2MS8xMzMxNS9wNTA1NWNhZGQ2NGY4MDE4NjYuanBn/0/gif10.jpg"
+    }
+    
+#### Comment
+
+    {
+        "id": "292435",
+        "chapter_id": "13315",
+        "user_id": "50625",
+        "content": "jempol melayang mong ",
+        "created": "2012-09-16 22:27:09",
+        "modified": "2012-09-16 22:27:09",
+        "status": "publish",
+        "author": <author object>
+    }
+
 ### Available API
 
 #### Mixed Content
