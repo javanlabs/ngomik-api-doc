@@ -48,7 +48,15 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
         url: "http://api.ngomik.dev/v1/authors/53350",
         permalink: "http://www.ngomik.com/uyab",
         avatar: "http://api.ngomik.dev/img/avatar/53350/100/100/53350.jpg",
-        display_name: "Bayu Hendra Winata"
+        display_name: "Bayu Hendra Winata",
+        about: "Tukang webcomic",
+        cover: "http://api.ngomik.dev/img/user/cover/9983/9983.jpg",
+        links: {
+            web: "http://4spasi.com",
+            facebook: "http://facebook.com/bayu.hendra",
+            twitter: false,
+            deviantart: false
+        }        
     }
 
 #### Series
@@ -161,6 +169,9 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `GET` [/v1/users/collections/purchased](v1/collection.md#purchased)
 * `GET` [/v1/users/collections/purchased/{item_id}](v1/collection.md#purchased)
 
+#### Refill Type
+* `POST` [/v1/refill_types](v1/refill.md#refill-type)
+ 
 #### Sms
 * `POST` [/v1/sms/generate](v1/sms.md#generate)
 
