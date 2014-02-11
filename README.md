@@ -50,7 +50,7 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
         avatar: "http://api.ngomik.dev/img/avatar/53350/100/100/53350.jpg",
         display_name: "Bayu Hendra Winata",
         about: "Tukang webcomic",
-        cover: "http://api.ngomik.dev/img/user/cover/9983/9983.jpg",
+        cover: "http://api.ngomik.dev/img/user/cover/9983/9983.jpg", // or #FFFFFF
         links: {
             web: "http://4spasi.com",
             facebook: "http://facebook.com/bayu.hendra",
