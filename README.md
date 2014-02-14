@@ -160,6 +160,8 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `POST` [/v1/users/create](v1/user.md#index)
 * `POST` [/v1/users/{id}/subscribe](v1/user.md#subscribe)
 * `POST` [/v1/users/{id}/unsubscribe](v1/user.md#unsubscribe)
+* `POST` [/v1/users/buy](v1/user.md#buy)
+* `POST` [/v1/users/login](v1/user.md#login)
 
 #### User Collection
 * `GET` /v1/users/collections

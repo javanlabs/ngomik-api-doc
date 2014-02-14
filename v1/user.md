@@ -225,3 +225,60 @@ v1/users/{id}/thumbsup (POST)
             }
         }
     }
+    
+#### Buy
+User membeli konten tertentu
+
+##### url
+v1/users/buy (POST)
+
+##### parameter
+* **item_id**: ID item
+
+##### HTTP response code
+* `200` OK
+* `402` Cash tidak cukup untuk membeli
+* `406` Item yang dibeli bukan komik berbayar
+* `417` User sudah pernah membeli
+
+##### contoh hasil
+
+    {
+        "status": 1,
+        "item": {
+            "id": "417",
+            "title": "Jaka Tuang - Mini Series 2",
+            "slug": "jaka-tuang-mini-series-2",
+            "created": "2010-12-12 18:45:42",
+            "modified": "2014-02-14 09:52:13",
+            "published": "2010-12-12 18:45:42",
+            "number": "2",
+            "status": "publish",
+            "url": "http://api.ngomik.dev/v1/chapters/417",
+            "permalink": "http://www.ngomik.com/chapter/417/jaka-tuang-mini-series-2",
+            "thumbnail": "http://api.ngomik.dev/img/page/200x300/Y29taWNzLzIwMTAvMTIvMTAvNzE3LzI3Ni80MTcvNGQwNGI1ZTYwNTAyNC5qcGc=/1/page00.jpg",
+            "cover": "http://api.ngomik.dev/img/page/400x600/Y29taWNzLzIwMTAvMTIvMTAvNzE3LzI3Ni80MTcvNGQwNGI1ZTYwNTAyNC5qcGc=/0/page00.jpg",
+            "view_count": "2294",
+            "comment_count": "73",
+            "thumb_count": "42",
+            "page_count": "27",
+            "synopsis": "Petualangan Jaka Tuang yang membantu seorang bidadari mencari jodoh.\n\nStory & Art: Okky Baskara\nEditing: Mangolang\nPages: 26\nProduction: Bandung, 2009",
+            "purchased": 1,
+            "price": "1000",
+            "author": <object author>,
+            "series": <object series>  
+        },
+        "user": {
+            "id": "2",
+            "username": "uyab",
+            "email": "bayu.hendra@javan.co.id",
+            "status": "1",
+            "created": "2010-08-23 14:14:44",
+            "modified": "2014-02-14 09:52:13",
+            "cash": 99000,
+            "url": "http://api.ngomik.dev/v1/authors/2",
+            "permalink": "http://www.ngomik.com/uyab",
+            "avatar": "http://api.ngomik.dev/img/avatar/2/100/100/2.jpg",
+            "display_name": "Bayu Hendra Winata"
+        }
+    }
