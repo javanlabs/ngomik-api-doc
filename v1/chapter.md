@@ -9,13 +9,17 @@ v1/chapters
 
 ##### parameter
 * **order**: newest, oldest, last-read (only if authUser exist)
-* **limit**: berapa banyak item yang ingin diambil
 * **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
 * **keyword**: untuk mendapatkan chapter yang judulnya mengandung **keyword**
+* **timestamp**: mendapatkan chapter yang diterbitkan setelah timestamp tertentu
+* **quality**: curated, community
+* **publisher_id**: publisher ID
 * **thumbnail_width**
 * **thumbnail_height**
 * **cover_width**
 * **cover_height**
+* **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
+* **limit**: berapa banyak item yang ingin diambil
 
 ##### contoh hasil
         

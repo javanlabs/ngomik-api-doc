@@ -10,10 +10,16 @@ v1/series
 ##### parameter
 * **type**: 'all', 'series', 'oneshot', 'strip' (default 'all')
 * **order**: newest, oldest
+* **keyword**: untuk mendapatkan series yang judulnya mengandung **keyword**
+* **quality**: curated, community
+* **publisher_id**: publisher ID
+* **category**
+* **thumbnail_width**
+* **thumbnail_height**
+* **cover_width**
+* **cover_height**
 * **limit**: berapa banyak item yang ingin diambil
 * **page**: untuk menentukan mulai dari urutan keberapa item yang diambil
-* **keyword**: untuk mendapatkan series yang judulnya mengandung **keyword**
-* **google_token**: identifier user jika mengakses dari android device
 
 ##### contoh hasil
 
