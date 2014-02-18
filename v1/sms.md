@@ -1,6 +1,21 @@
 ### SMS
 
-#### Generate
+#### Generate Code (for authenticated user)
+Meng-generate kode sms dan kode beli untuk keperluan pembelian via SMS.
+
+##### url
+v1/sms/generate_code (POST)
+
+##### parameter
+* **item_id**: ID item di ngomik.com
+
+##### contoh hasil
+     {
+        "sms_code": "eiOn2SA",
+        "purchase_code": "0VcIycY"
+    }
+    
+#### Generate (for non authenticated user)
 Meng-generate kode sms dan kode beli untuk keperluan pembelian via SMS.
 
 ##### url
