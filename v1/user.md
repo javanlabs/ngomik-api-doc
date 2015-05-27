@@ -60,6 +60,32 @@ v1/users/{id}/update (POST)
         }
     }
 
+#### Me
+Mendapatkan data pengguna yang sedang login
+
+##### url
+v1/users/me (POST)
+
+##### contoh hasil
+
+    {
+        "status":1,
+        "user":{
+            "id": "53342",
+            "username": "bayuhendra@email.com",
+            "email": "bayuhendra@email.com",
+            "status": "3",
+            "created": "2014-01-21 13:38:06",
+            "modified": "2014-01-21 13:38:06",
+            "cash":"0",
+            "followers_count":"0",
+            "subscription":{
+                "start_date":"2015-05-27 00:00:00",
+                "end_date":"2015-05-31 00:00:00",
+                "status":1
+            }
+        }
+    }
     
 #### Subscribe
 User berlangganan suatu konten
