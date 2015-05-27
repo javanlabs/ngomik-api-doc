@@ -158,7 +158,7 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 
 #### User
 * `POST` [/v1/users/create](v1/user.md#index)
-* `POST` [/v1/users/create](v1/user.md#me)
+* `POST` [/v1/users/me](v1/user.md#me)
 * `POST` [/v1/users/{id}/subscribe](v1/user.md#subscribe)
 * `POST` [/v1/users/{id}/unsubscribe](v1/user.md#unsubscribe)
 * `POST` [/v1/users/buy](v1/user.md#buy)
@@ -185,7 +185,7 @@ Untuk mendapatkan `app_id` dan `app_secret`, silakan kontak admin@ngomik.com.
 * `GET` [/v1/statistic/reader](v1/statistic.md#daily-reader)
 
 #### Subscription
-* `POST` [/v1/subscription/list](v1/subscription.md#index)
+* `GET` [/v1/subscription/list](v1/subscription.md#index)
 
 ## versi 0.x (deprecated)
 
