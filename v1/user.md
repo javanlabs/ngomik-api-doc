@@ -71,12 +71,12 @@ v1/users/me (POST)
     {
         "status":1,
         "user":{
-            "id":"79933",
-            "username":"daniramadani",
-            "email":"daniwarrior07@gmail.com",
-            "status":"0",
-            "created":"2013-11-27 11:56:52",
-            "modified":"2015-05-27 14:51:01",
+            "id": "53342",
+            "username": "bayuhendra@email.com",
+            "email": "bayuhendra@email.com",
+            "status": "3",
+            "created": "2014-01-21 13:38:06",
+            "modified": "2014-01-21 13:38:06",
             "cash":"0",
             "followers_count":"0",
             "subscription":{
